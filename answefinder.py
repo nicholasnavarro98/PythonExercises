@@ -24,22 +24,22 @@ ans3 = ["There", "Is", "No", "Answer"]
 ans4 = ["There", "Is", "Nothing", "To", "See"] 
 
 counter = 0
-if isAwake == True & isNick == True:
+if isAwake == True and isNick == True:
 	while counter != 100:
             for x in ans1:
                 print (x, end="")
                 counter = counter + 1
-elif isAwake == False & isNick == True:
+elif isAwake == False and isNick == True:
 	while counter != 100:  
             for x in ans2:
                 print (x, end="")
                 counter = counter + 1
-elif isAwake == True & isNick == False:
+elif isAwake == True and isNick == False:
 	while counter != 100:  
             for x in ans3:
                 print (x, end="")
                 counter = counter + 1
-elif isAwake == False & isNick == False:
+elif isAwake == False and isNick == False:
 	while counter != 100:  
             for x in ans4:
                 print (x, end="")
