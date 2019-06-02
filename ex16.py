@@ -1,12 +1,12 @@
-from sys import argv
-script, filename = argv
+from sys import argv # From System Module we imported Argv functions
+script, filename = argv # script and filename are the parameters to run program
 
 
-print "We're going to erase %r." % filename
-print "If you don't want that, hit CTRL-C(^C)"
-print "If you do want that, hit RETURN."
+print "We're going to erase %r." % filename #prints line with %r being replaced with file filename
+print "If you don't want that, hit CTRL-C(^C)"#prints line telling user to use shortcut to end program
+print "If you do want that, hit RETURN." #prints line telling user to hit enter to continue script
 
-raw_input("?")
+raw_input("?") #detecs user input with ? as prompt
 
 print "Opening the file..."
 target = open(filename, 'w')
