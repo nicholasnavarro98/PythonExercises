@@ -5,7 +5,7 @@ script, filename = argv
 txt = open(filename)
 
 
-print "Here's your file %r:" % filename 
+print "Here's your file %r:" % filename
 print txt.read()
 txtclose = txt.close()
 
@@ -24,6 +24,4 @@ if fileClose == 'Y':
 else:
     print "It's important to close files once you're done with them"
 
-
-
-
+#test comment - using SSH Keys to clone and push to Git.
